@@ -19,7 +19,7 @@
           <!-- navigation stuff -->
           <nav>
             <ul>
-              <li><a href="https://www.google.com/"></a>link to google</li>
+              <li><a href="https://www.google.com/">google</a>link to google</li>
               <li><a href="https://www.wikipedia.org/"></a>link to wikipedia</li>
               <li><a href="https://www.apple.com/"></a>link to apple</li>    
             </ul>
@@ -32,16 +32,16 @@
 
         <main>
 
-          <section>
+          <section id="article1" class="boring">
             <p>This is a one time special offer<p>
           </section>
 
-          <article>
+          <article id="article2" class="interesting">
             <h2>breking stuff</h2>
             <p>somthinghere</p>
           </article>
 
-          <ol>
+          <ol id="list1" class="boring">
             <!--this is a comment-->
             <!--these 'li' elements are nested-->
             <!--to run this, open the file in chrome-->
@@ -49,6 +49,15 @@
             <li>this is another text node</li>
             <li>this another text node</li>
           </ol>
+
+          <!-- ids must be unique, classes have more flexibility -->
+          <ul id = "grocry-list" class="vegetables fruit candy">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+          </ul>
+
         
           <p>this is a "paragraph" tag</p>
           <p>https://www.lipsum.com/ somethids sd fs df asdfasdfseasddf dfa <blockquote> "with something comes something"</blockquote>sdcc zvasdf saf sfasdf asdjsakdjf ksd  <img src ="http://placekitten.com/200/300" alt="this is a picture of a cat..."> kfjlkjlsk dflk jlksdj <span>something</span> asdfkasjd fksjdlf</p>
@@ -56,6 +65,7 @@
           <br>
           <hr>
 
+          <!-- this has attributes -->
           <img src ="http://placekitten.com/200/300" alt="this is a picture of a cat...">
           
           <br>
