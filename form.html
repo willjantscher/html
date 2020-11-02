@@ -7,20 +7,65 @@
 
         <form action="">
             <label for="first-name">First Name:</label>
-            <input type="text">
+            <input type="text" id="first-name">
 
             <label for="last-name">Last Name:</label>
-            <input type="text"> 
+            <input type="text" id = "last-name"> 
 
             <label for="email">Email:</label>
-            <input type="email">
+            <input type="email" name="email" id=email">
 
             <br>
+            <br>
+
+            <h2>Favorite TV Show</h2>
             
-            <input type="checkbox">
+
+            <!-- id should match with the for, the name sometimes matches the id?, 
+                if multiple radio inputs share the same name, only one can be selected 
+                Value should match the label-->
+            <label for="fAnimaniacs">Animaniacs:</label>
+            <input type="radio" name="fav-tv-show" id="Animaniacs" value="Animaniacs">
+            <br>
+
+            <label for="The IT Crowd">The IT Crowd:</label>
+            <input type="radio" name="fav-tv-show" id="The-IT-Crowd" value="The IT Crowd">
+            <br>
+
+            <label for="Creek">Creek:</label>
+            <input type="radio" name="fav-tv-show" id="Creek" value="Creek">     
+            
+            <br>
+            <br>
+
+            <!-- The <fieldset> tag is used to group related elements in a form.
+                The <fieldset> tag draws a box around the related elements. -->
+            <fieldset>
+                <legend>Have you seen these movies?</legend>
+                <input id="Serenity" type="checkbox" name="Serenity" value="Serenity">
+                <label for="Serenity">Serenity</label><br>
+
+                <input id="LOTR" type="checkbox" name="LOTR" value="LOTR">
+                <label for="LOTR">LOTR</label><br>
+
+                <input id="The Matrix" type="checkbox" name="The Matrix" value="The Matrix">
+                <label for="The Matrix">The Matrix</label><br>
+            </fieldset>
+
+            <br>
+
+            <h4>Password</h4>
+            <input type="password" name="" id="" placeholder="it's a secret">
+
+            <br>
+            <br>
+            <br>
+
+            <input type="submit" value="Submit This Form">
+            <!-- <input type="checkbox">
             <input type="radio">
             <input type="radio">
-            <input type="radio">
+            <input type="radio"> -->
 
         </form>
 
